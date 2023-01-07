@@ -4,7 +4,7 @@ with open('stack.txt') as f:
 
 columns = list(zip(*lines))
 
-def letters(input):
+def letters(columns):
     valids = []
     small_list = []
     for column in columns:
